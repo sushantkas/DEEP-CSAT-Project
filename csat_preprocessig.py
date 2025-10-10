@@ -21,7 +21,7 @@ class csat_preprocessing:
 
             knn_impute_columns=[
                 'channel_name', 'category', 'sub-category',  'customer_city', 'product_category','item_price', 'connected_handling_time', 'agent_name', 'supervisor',
-                    'manager', 'tenure_bucket', 'agent_shift','sentiment_score', 'issue_resolution_time'
+                    'manager', 'tenure_bucket', 'agent_shift','issue_resolution_time'
                     ]
             label_columns=[
                 'channel_name', 'category', 'sub-category',  'customer_city', 'product_category', 'agent_name', 'supervisor',
