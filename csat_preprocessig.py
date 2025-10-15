@@ -48,7 +48,7 @@ class csat_preprocessing:
 
     
 
-    def preprocessed(self, dask=True):
+    def preprocessed(self):
         self.csat.drop_duplicates(inplace=True)
         self.csat.fillna({"Customer Remarks":"No_Remarks"}, inplace=True)
         # Sentiment score Function
@@ -57,20 +57,8 @@ class csat_preprocessing:
             score = analyzer.polarity_scores(text)
             return score["compound"]
         
-        st.write("Calculating sentiment scores for customer remarks...")
-        st.warning("This step might take a while depending on the number of records in the dataset. Estimated time: 1 minutes per 10000 records.")
-        if dask == True:
-            # Convert to Dask DataFrame
-            ddf = dd.from_pandas(self.csat, npartitions=8)  # You can tune npartitions to number of CPU cores
 
-            # Apply sentiment analysis in parallel
-            ddf["sentiment_score"] = ddf["Customer Remarks"].map_partitions(
-                lambda df: df.apply(lambda x: np.nan if x == "No_Remarks" else sentiment_score(x))
-            )
-            # Compute and bring back to pandas
-            self.csat = ddf.compute()
-        else:
-            self.csat["sentiment_score"]=self.csat["Customer Remarks"].apply(lambda x: np.nan if x=="No_Remarks" else sentiment_score(x))
+        self.csat["sentiment_score"]=self.csat["Customer Remarks"].apply(lambda x: np.nan if x=="No_Remarks" else sentiment_score(x))
 
         self.csat.fillna({"sentiment_score":self.csat["sentiment_score"].median()}, inplace=True)
         # Correcting the column names
@@ -89,3 +77,6 @@ class csat_preprocessing:
         self.csat["survey_response_time"]=(self.csat["survey_response_time"]/3600).astype("timedelta64[s]").dt.seconds/60
         
         return self.csat
+
+
+

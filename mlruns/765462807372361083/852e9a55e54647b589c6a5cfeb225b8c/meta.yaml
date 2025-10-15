@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/765462807372361083/852e9a55e54647b589c6a5cfeb225b8c/artifacts
+end_time: 1760500286653
+entry_point_name: ''
+experiment_id: '765462807372361083'
+lifecycle_stage: active
+run_id: 852e9a55e54647b589c6a5cfeb225b8c
+run_name: clumsy-wasp-946
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760500283158
+status: 4
+tags: []
+user_id: susha

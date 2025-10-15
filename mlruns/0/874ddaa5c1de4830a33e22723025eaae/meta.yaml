@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/874ddaa5c1de4830a33e22723025eaae/artifacts
+end_time: 1760499987754
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 874ddaa5c1de4830a33e22723025eaae
+run_name: big-asp-336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760499984108
+status: 4
+tags: []
+user_id: susha
