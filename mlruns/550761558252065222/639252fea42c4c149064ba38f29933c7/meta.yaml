@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/550761558252065222/639252fea42c4c149064ba38f29933c7/artifacts
+deleted_time: 1760595403728
+end_time: 1760594462703
+entry_point_name: ''
+experiment_id: '550761558252065222'
+lifecycle_stage: deleted
+run_id: 639252fea42c4c149064ba38f29933c7
+run_name: salty-fawn-527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760594409310
+status: 4
+tags: []
+user_id: susha

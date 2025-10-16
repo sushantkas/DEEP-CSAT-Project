@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/6e98810300d64d599b0a12d9fec21a9a/artifacts
+end_time: 1760591862804
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 6e98810300d64d599b0a12d9fec21a9a
+run_name: likeable-fly-64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591831046
+status: 3
+tags: []
+user_id: susha

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/c499860a6daf4cc98d1e0f2e5ee2cf4a/artifacts
+end_time: 1760591888985
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: c499860a6daf4cc98d1e0f2e5ee2cf4a
+run_name: amusing-stag-579
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591862907
+status: 3
+tags: []
+user_id: susha

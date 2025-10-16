@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/c1fe6c96f56b48228bf77a29d3420412/artifacts
+end_time: 1760591830953
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: c1fe6c96f56b48228bf77a29d3420412
+run_name: likeable-gull-91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591753553
+status: 3
+tags: []
+user_id: susha

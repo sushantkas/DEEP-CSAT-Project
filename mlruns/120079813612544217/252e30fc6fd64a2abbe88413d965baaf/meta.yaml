@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/252e30fc6fd64a2abbe88413d965baaf/artifacts
+end_time: 1760589882334
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 252e30fc6fd64a2abbe88413d965baaf
+run_name: welcoming-snail-696
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760589824213
+status: 3
+tags: []
+user_id: susha

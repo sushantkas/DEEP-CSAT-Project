@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/550761558252065222/a957561105e3447aad367f8f6ce60e9e/artifacts
+deleted_time: 1760594106865
+end_time: 1760593819537
+entry_point_name: ''
+experiment_id: '550761558252065222'
+lifecycle_stage: deleted
+run_id: a957561105e3447aad367f8f6ce60e9e
+run_name: Randomforest_optimization_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760593816402
+status: 4
+tags: []
+user_id: susha

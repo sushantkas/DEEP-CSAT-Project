@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/0f54209188fc40c88ad204574b62363a/artifacts
+end_time: 1760590499984
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 0f54209188fc40c88ad204574b62363a
+run_name: glamorous-mink-418
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590458437
+status: 3
+tags: []
+user_id: susha

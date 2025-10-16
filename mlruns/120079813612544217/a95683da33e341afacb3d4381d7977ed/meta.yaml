@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/a95683da33e341afacb3d4381d7977ed/artifacts
+end_time: 1760590636541
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: a95683da33e341afacb3d4381d7977ed
+run_name: adorable-boar-141
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590500098
+status: 3
+tags: []
+user_id: susha

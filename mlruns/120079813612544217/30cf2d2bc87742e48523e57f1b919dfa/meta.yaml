@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/30cf2d2bc87742e48523e57f1b919dfa/artifacts
+end_time: 1760590740324
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 30cf2d2bc87742e48523e57f1b919dfa
+run_name: unique-hawk-203
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590636745
+status: 3
+tags: []
+user_id: susha

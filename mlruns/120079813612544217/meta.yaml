@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/120079813612544217
+creation_time: 1760589824114
+experiment_id: '120079813612544217'
+last_update_time: 1760589824114
+lifecycle_stage: active
+name: CSAT_Optuna_Tuning

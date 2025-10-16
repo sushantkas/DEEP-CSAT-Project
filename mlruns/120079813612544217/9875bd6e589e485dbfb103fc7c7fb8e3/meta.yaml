@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/9875bd6e589e485dbfb103fc7c7fb8e3/artifacts
+end_time: 1760592454825
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 9875bd6e589e485dbfb103fc7c7fb8e3
+run_name: victorious-mole-979
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592400903
+status: 3
+tags: []
+user_id: susha

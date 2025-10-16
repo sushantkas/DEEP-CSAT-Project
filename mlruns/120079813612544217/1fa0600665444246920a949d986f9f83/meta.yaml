@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/1fa0600665444246920a949d986f9f83/artifacts
+end_time: 1760589922293
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 1fa0600665444246920a949d986f9f83
+run_name: useful-newt-199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760589882405
+status: 3
+tags: []
+user_id: susha

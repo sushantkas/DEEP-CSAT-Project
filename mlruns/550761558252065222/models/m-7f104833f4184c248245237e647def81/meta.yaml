@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/550761558252065222/models/m-7f104833f4184c248245237e647def81/artifacts
+creation_timestamp: 1760609629093
+experiment_id: '550761558252065222'
+last_updated_timestamp: 1760609633439
+model_id: m-7f104833f4184c248245237e647def81
+model_type: ''
+name: RandomForest_Optuna_Study_best_model
+source_run_id: cfda50c0023f4b03917dd4dc713adeec
+status: 2
+status_message: null

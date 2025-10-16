@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/2d7aa1dd8a91473485a1974c832ff677/artifacts
+end_time: 1760590982990
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 2d7aa1dd8a91473485a1974c832ff677
+run_name: likeable-penguin-4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590958798
+status: 3
+tags: []
+user_id: susha

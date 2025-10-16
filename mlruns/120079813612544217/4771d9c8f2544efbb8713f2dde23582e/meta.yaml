@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/4771d9c8f2544efbb8713f2dde23582e/artifacts
+end_time: 1760592244779
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 4771d9c8f2544efbb8713f2dde23582e
+run_name: flawless-penguin-519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592200047
+status: 3
+tags: []
+user_id: susha

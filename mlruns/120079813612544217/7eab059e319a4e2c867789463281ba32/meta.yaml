@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/7eab059e319a4e2c867789463281ba32/artifacts
+end_time: 1760591753470
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 7eab059e319a4e2c867789463281ba32
+run_name: learned-hare-515
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591735648
+status: 3
+tags: []
+user_id: susha

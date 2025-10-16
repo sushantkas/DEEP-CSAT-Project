@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/622da7943b154d8db5a9e01ef8044cfb/artifacts
+end_time: 1760592524361
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 622da7943b154d8db5a9e01ef8044cfb
+run_name: righteous-newt-944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592454908
+status: 3
+tags: []
+user_id: susha

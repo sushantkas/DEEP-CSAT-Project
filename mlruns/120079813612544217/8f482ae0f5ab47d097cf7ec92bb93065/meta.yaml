@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/8f482ae0f5ab47d097cf7ec92bb93065/artifacts
+end_time: 1760592333256
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 8f482ae0f5ab47d097cf7ec92bb93065
+run_name: marvelous-whale-452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592304019
+status: 3
+tags: []
+user_id: susha

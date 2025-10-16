@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/084cd4aacfb34c4494f59ec57be8e69d/artifacts
+end_time: 1760590958484
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 084cd4aacfb34c4494f59ec57be8e69d
+run_name: victorious-calf-712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590769313
+status: 3
+tags: []
+user_id: susha

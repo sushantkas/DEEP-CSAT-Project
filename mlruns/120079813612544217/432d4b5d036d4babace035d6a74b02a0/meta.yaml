@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/432d4b5d036d4babace035d6a74b02a0/artifacts
+end_time: 1760591107757
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 432d4b5d036d4babace035d6a74b02a0
+run_name: luxuriant-wasp-340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591026505
+status: 3
+tags: []
+user_id: susha

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/ce2da10578c54482bbe8877b12de2e65/artifacts
+end_time: 1760591589945
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: ce2da10578c54482bbe8877b12de2e65
+run_name: amazing-perch-292
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591510813
+status: 3
+tags: []
+user_id: susha

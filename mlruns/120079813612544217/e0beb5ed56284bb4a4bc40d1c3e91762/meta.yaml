@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/e0beb5ed56284bb4a4bc40d1c3e91762/artifacts
+end_time: 1760590769198
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: e0beb5ed56284bb4a4bc40d1c3e91762
+run_name: merciful-squid-363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590740479
+status: 3
+tags: []
+user_id: susha

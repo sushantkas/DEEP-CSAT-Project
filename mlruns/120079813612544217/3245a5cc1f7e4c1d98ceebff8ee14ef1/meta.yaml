@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/3245a5cc1f7e4c1d98ceebff8ee14ef1/artifacts
+end_time: 1760591396514
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 3245a5cc1f7e4c1d98ceebff8ee14ef1
+run_name: lyrical-loon-7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591369314
+status: 3
+tags: []
+user_id: susha

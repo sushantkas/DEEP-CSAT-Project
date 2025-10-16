@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/be678a0381754bc2bb6922161a4a988a/artifacts
+end_time: 1760590005468
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: be678a0381754bc2bb6922161a4a988a
+run_name: bustling-duck-216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760589922419
+status: 3
+tags: []
+user_id: susha

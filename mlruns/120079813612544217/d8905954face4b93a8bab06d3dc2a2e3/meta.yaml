@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/d8905954face4b93a8bab06d3dc2a2e3/artifacts
+end_time: 1760590051096
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: d8905954face4b93a8bab06d3dc2a2e3
+run_name: secretive-stork-117
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590005655
+status: 3
+tags: []
+user_id: susha

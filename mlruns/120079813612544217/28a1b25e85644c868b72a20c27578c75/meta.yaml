@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/28a1b25e85644c868b72a20c27578c75/artifacts
+end_time: 1760591964373
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 28a1b25e85644c868b72a20c27578c75
+run_name: righteous-cod-42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591889081
+status: 3
+tags: []
+user_id: susha

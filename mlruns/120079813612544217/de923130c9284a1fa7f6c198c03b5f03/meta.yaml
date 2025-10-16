@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/de923130c9284a1fa7f6c198c03b5f03/artifacts
+end_time: 1760590128901
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: de923130c9284a1fa7f6c198c03b5f03
+run_name: redolent-moth-630
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590051229
+status: 3
+tags: []
+user_id: susha

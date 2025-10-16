@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/48fdeb66d9cf473a92b1b9d52ab8cf9c/artifacts
+end_time: 1760591257582
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 48fdeb66d9cf473a92b1b9d52ab8cf9c
+run_name: enchanting-sow-139
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591207134
+status: 3
+tags: []
+user_id: susha

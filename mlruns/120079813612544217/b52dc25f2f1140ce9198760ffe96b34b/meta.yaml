@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/b52dc25f2f1140ce9198760ffe96b34b/artifacts
+end_time: 1760592199949
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: b52dc25f2f1140ce9198760ffe96b34b
+run_name: colorful-snipe-874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592128905
+status: 3
+tags: []
+user_id: susha

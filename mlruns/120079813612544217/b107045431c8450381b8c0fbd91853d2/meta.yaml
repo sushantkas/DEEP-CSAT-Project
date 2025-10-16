@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/b107045431c8450381b8c0fbd91853d2/artifacts
+end_time: 1760590458049
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: b107045431c8450381b8c0fbd91853d2
+run_name: puzzled-bug-777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760590281715
+status: 3
+tags: []
+user_id: susha

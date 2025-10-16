@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/88fe0c07ee4f4e2fa39a79614b8b9bc7/artifacts
+end_time: 1760591369050
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 88fe0c07ee4f4e2fa39a79614b8b9bc7
+run_name: rogue-chimp-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591257677
+status: 3
+tags: []
+user_id: susha

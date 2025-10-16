@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/b13d52d029c54cf284aca9a876f20386/artifacts
+end_time: 1760592128803
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: b13d52d029c54cf284aca9a876f20386
+run_name: skittish-lamb-664
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592109003
+status: 3
+tags: []
+user_id: susha

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/ab551c8748774cfda9026c2c8193c631/artifacts
+end_time: 1760591457134
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: ab551c8748774cfda9026c2c8193c631
+run_name: inquisitive-fawn-994
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591435353
+status: 3
+tags: []
+user_id: susha

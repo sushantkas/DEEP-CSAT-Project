@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/376f3068309d47998f5a2f028a02b14f/artifacts
+end_time: 1760592303921
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 376f3068309d47998f5a2f028a02b14f
+run_name: nervous-squirrel-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760592244873
+status: 3
+tags: []
+user_id: susha

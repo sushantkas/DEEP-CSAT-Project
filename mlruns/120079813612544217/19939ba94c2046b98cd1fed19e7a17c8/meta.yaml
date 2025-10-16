@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/19939ba94c2046b98cd1fed19e7a17c8/artifacts
+end_time: 1760592781527
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 19939ba94c2046b98cd1fed19e7a17c8
+run_name: Optuna_RF_and_LGBM_Tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760589824157
+status: 4
+tags: []
+user_id: susha

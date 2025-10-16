@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/120079813612544217/6b135e4f7e1b4f2db69be7554680c967/artifacts
+end_time: 1760591472050
+entry_point_name: ''
+experiment_id: '120079813612544217'
+lifecycle_stage: active
+run_id: 6b135e4f7e1b4f2db69be7554680c967
+run_name: omniscient-fowl-577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760591457243
+status: 3
+tags: []
+user_id: susha
