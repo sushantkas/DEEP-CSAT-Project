@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255585276794493170/5678613b9a3e42dfb5e5a23506ddc5ac/artifacts
+end_time: 1760678670203
+entry_point_name: ''
+experiment_id: '255585276794493170'
+lifecycle_stage: active
+run_id: 5678613b9a3e42dfb5e5a23506ddc5ac
+run_name: optuna_trial_0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760678667775
+status: 4
+tags: []
+user_id: susha

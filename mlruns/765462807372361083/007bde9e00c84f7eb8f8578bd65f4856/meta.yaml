@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/765462807372361083/007bde9e00c84f7eb8f8578bd65f4856/artifacts
+end_time: 1760627839960
+entry_point_name: ''
+experiment_id: '765462807372361083'
+lifecycle_stage: active
+run_id: 007bde9e00c84f7eb8f8578bd65f4856
+run_name: Randomforest_classifier_test_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760627756183
+status: 3
+tags: []
+user_id: susha

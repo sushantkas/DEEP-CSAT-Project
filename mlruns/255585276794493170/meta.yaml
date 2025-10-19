@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/255585276794493170
+creation_time: 1760677820785
+experiment_id: '255585276794493170'
+last_update_time: 1760677820785
+lifecycle_stage: active
+name: CSAT_ANN_Optuna

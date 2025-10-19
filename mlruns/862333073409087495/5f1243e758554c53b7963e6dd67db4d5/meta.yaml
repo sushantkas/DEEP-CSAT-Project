@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862333073409087495/5f1243e758554c53b7963e6dd67db4d5/artifacts
+deleted_time: 1760674733199
+end_time: 1760632159832
+entry_point_name: ''
+experiment_id: '862333073409087495'
+lifecycle_stage: deleted
+run_id: 5f1243e758554c53b7963e6dd67db4d5
+run_name: lightgbm_optimization_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760632112641
+status: 3
+tags: []
+user_id: susha

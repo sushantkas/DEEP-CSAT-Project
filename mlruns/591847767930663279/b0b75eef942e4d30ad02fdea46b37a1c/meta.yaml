@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/591847767930663279/b0b75eef942e4d30ad02fdea46b37a1c/artifacts
+end_time: 1760675476531
+entry_point_name: ''
+experiment_id: '591847767930663279'
+lifecycle_stage: active
+run_id: b0b75eef942e4d30ad02fdea46b37a1c
+run_name: LightGBM_classifier_Finalized_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760675408338
+status: 3
+tags: []
+user_id: susha

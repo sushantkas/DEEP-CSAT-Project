@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255585276794493170/f18a98ceb20a47b58254536e576dcad3/artifacts
+end_time: 1760678670253
+entry_point_name: ''
+experiment_id: '255585276794493170'
+lifecycle_stage: active
+run_id: f18a98ceb20a47b58254536e576dcad3
+run_name: Optuna_ANN_Study
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760678591008
+status: 4
+tags: []
+user_id: susha
