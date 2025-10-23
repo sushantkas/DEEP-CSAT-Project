@@ -51,7 +51,10 @@ else:
 if st.button("🔄 Preprocess and Predict CSAT Scores"):
     
     with st.spinner("Processing Dataset....", show_time=True):
-        df=df[columns1]
+        try:
+            df=df[columns1]
+        except:
+            pass
         cdata=csat_preprocessing(df).preprocessed()
         
         cdata.drop(["customer_remarks","order_id","order_date_time","issue_reported_at", "issue_responded","survey_response_date"], inplace=True, axis=1)
