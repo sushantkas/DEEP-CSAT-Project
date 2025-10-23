@@ -60,6 +60,6 @@ if st.button("🔄 Preprocess and Predict CSAT Scores"):
         csat=model.predict(cdata)
         cdata["csat_score"]=csat
         st.dataframe(cdata)
-        st.download_button("Download file...", data=cdata, file_name="predicted_data.csv")
+        st.download_button("Download file...", data=cdata, file_name="predicted_data.csv", mime="csv")
 
 
