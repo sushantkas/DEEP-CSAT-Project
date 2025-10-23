@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/591847767930663279/models/m-0af2f13d090540e08286363d82dcaff7/artifacts
+creation_timestamp: 1760888265426
+experiment_id: '591847767930663279'
+last_updated_timestamp: 1760888277715
+model_id: m-0af2f13d090540e08286363d82dcaff7
+model_type: ''
+name: LightGBM_Classifier
+source_run_id: 8bbf731321f54817b6419c2859573bca
+status: 2
+status_message: null

@@ -1,0 +1,45 @@
+/* === Full-page background layer === */
+.stars-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -999; /* Always behind Streamlit content */
+  pointer-events: none; /* Don’t block clicks */
+}
+
+/* Example star animation */
+.star-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white, rgba(255, 255, 255, 0) 70%);
+  animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translateZ(500px);
+  }
+}
+
+/* === Override Streamlit’s layout background === */
+[data-testid="stAppViewContainer"] {
+  background: transparent !important;
+}
+
+[data-testid="stHeader"],
+[data-testid="stSidebar"],
+[data-testid="stToolbar"] {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+body {
+  background: black; /* fallback color */
+}
