@@ -14,7 +14,7 @@ columns1=['channel_name', 'category', 'Sub-category', 'Customer Remarks',
        'Order_id', 'order_date_time', 'Issue_reported at', 'issue_responded',
        'Survey_response_Date', 'Customer_City', 'Product_category',
        'Item_price', 'connected_handling_time', 'Agent_name', 'Supervisor',
-       'Manager', 'Tenure Bucket', 'Agent Shift', 'CSAT Score']
+       'Manager', 'Tenure Bucket', 'Agent Shift']
 
 with open("lightgbm_final_model.pkl","rb") as f:
     model=pickle.load(f)
