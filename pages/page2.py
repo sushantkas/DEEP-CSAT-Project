@@ -60,10 +60,10 @@ if st.button("🔄 Preprocess and Predict CSAT Scores"):
             cdata.drop("csat_score", axis=1, inplace=True)
         except:
             pass
-        st.dataframe(cdata)
 
         csat=model.predict(cdata)
         cdata["csat_score"]=csat
         st.dataframe(cdata)
+        st.download_button("Download file...", data=cdata, file_name="predicted_data")
 
 
