@@ -12,7 +12,7 @@ torch>=1.9.0
 lightgbm>=3.3.0
 optuna>=2.10.0
 mlflow>=1.20.0
-imblearn>=0.8.0
+imbalanced-learn>=0.8.0
 
 # NLP
 vaderSentiment>=3.3.2
