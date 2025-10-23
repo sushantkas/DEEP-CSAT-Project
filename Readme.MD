@@ -178,7 +178,7 @@ streamlit run app.py
 6. Performance monitoring system
 
 ## 👥 Contributors
-- Individual Project (Sushant Kashiram)
+- Individual Project (Sushant Kashikar)
 
 ## 📄 License
 MIT License
