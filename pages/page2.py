@@ -10,7 +10,11 @@ importlib.reload(csat_preprocessig)
 from csat_preprocessig import csat_preprocessing
 
 
-
+columns1=['channel_name', 'category', 'Sub-category', 'Customer Remarks',
+       'Order_id', 'order_date_time', 'Issue_reported at', 'issue_responded',
+       'Survey_response_Date', 'Customer_City', 'Product_category',
+       'Item_price', 'connected_handling_time', 'Agent_name', 'Supervisor',
+       'Manager', 'Tenure Bucket', 'Agent Shift', 'CSAT Score']
 
 with open("lightgbm_final_model.pkl","rb") as f:
     model=pickle.load(f)
@@ -31,7 +35,7 @@ if uploaded_file is not None:
     # Read dataset
     try:
         if uploaded_file.name.endswith(".csv"):
-            df = pd.read_csv(uploaded_file)
+            df = pd.read_csv(uploaded_file, index_col="Unique id")
         else:
             df = pd.read_excel(uploaded_file)
         
@@ -47,7 +51,17 @@ else:
 if st.button("🔄 Preprocess and Predict CSAT Scores"):
     
     with st.spinner("Processing Dataset....", show_time=True):
+        df=df[columns1]
         cdata=csat_preprocessing(df).preprocessed()
+        
+        cdata.drop(["customer_remarks","order_id","order_date_time","issue_reported_at", "issue_responded","survey_response_date"], inplace=True, axis=1)
+        try:
+            
+            cdata.drop("csat_score", axis=1, inplace=True)
+        except:
+            pass
+        st.dataframe(cdata)
+
         csat=model.predict(cdata)
         cdata["csat_score"]=csat
         st.dataframe(cdata)
