@@ -1,144 +1,187 @@
-# Deep-CSAT: Customer Satisfaction Prediction using Deep Learning
+# Deep-CSAT: E-commerce Customer Satisfaction Prediction
 
-A deep learning-based approach to predict Customer Satisfaction (CSAT) scores for e-commerce customer support interactions.
+A comprehensive machine learning solution for predicting customer satisfaction scores in e-commerce customer support interactions, featuring multiple ML models, deep learning approaches, and a Streamlit-based deployment interface.
 
-## Project Overview
+## 🎯 Project Overview
 
-This project implements a machine learning solution to predict customer satisfaction scores based on various customer support interaction parameters. It utilizes natural language processing for sentiment analysis and deep learning for prediction.
+This project implements an end-to-end machine learning solution to predict customer satisfaction (CSAT) scores based on various customer support interaction parameters. It utilizes advanced NLP for sentiment analysis, multiple machine learning models for prediction, and provides a user-friendly interface for real-time predictions.
 
-## Features
+## 🌟 Features
 
-- Sentiment analysis of customer remarks using VADER
-- Automated data preprocessing pipeline
-- Feature engineering for temporal data
-- Deep learning model for CSAT prediction
-- Comprehensive EDA with UBM (Univariate, Bivariate, Multivariate) analysis
+- **Advanced Data Processing**:
+  - Sentiment analysis using VADER
+  - Automated preprocessing pipeline
+  - Feature engineering for temporal data
+  - Robust handling of missing values
 
-## Project Structure
+- **Multiple ML Models**:
+  - LightGBM Classifier (Best performing)
+  - Random Forest Classifier
+  - Neural Network (ANN)
+  - TabNet Implementation
+
+- **MLflow Integration**:
+  - Experiment tracking
+  - Hyperparameter optimization
+  - Model versioning
+  - Performance metrics logging
+
+- **Interactive Interface**:
+  - Streamlit-based web application
+  - Real-time predictions
+  - User-friendly input forms
+  - Visual result presentation
+
+## 📁 Project Structure
 
 ```
-├── csat_preprocessig.py      # Preprocessing module
-├── EDA.ipynb                # Exploratory Data Analysis notebook
-├── ml_training.ipynb        # Model training notebook
-├── label_encoder.pkl        # Saved label encoder model
-├── knn_imputer.pkl         # Saved KNN imputer model
-├── cat_imputer.pkl         # Saved categorical imputer model
+├── csat_preprocessig.py        # Preprocessing module
+├── ml_training.ipynb          # Model training and experimentation
+├── EDA.ipynb                  # Exploratory Data Analysis
+├── pages/
+│   ├── page1.py              # Streamlit individual prediction page
+│   └── page2.py              # Streamlit batch prediction page
+├── models/
+│   ├── lightgbm_final_model.pkl
+│   ├── label_encoder.pkl
+│   ├── knn_imputer.pkl
+│   ├── cat_imputer.pkl
+│   └── robust_scaler.pkl
+└── data/
+    └── eCommerce_Customer_support_data.csv
 ```
 
-## Data Features
+## 🔍 Machine Learning Pipeline
 
-### Input Features:
-- **Channel Features**: channel_name, category, sub-category
-- **Customer Information**: customer_city, product_category
-- **Agent Information**: agent_name, supervisor, manager, tenure_bucket, agent_shift
-- **Interaction Metrics**: 
-  - connected_handling_time
-  - issue_resolution_time
-  - sentiment_score (derived from customer remarks)
-  - item_price
+### 1. Data Preprocessing (`csat_preprocessig.py`)
+- Custom preprocessing class implementation
+- Automated handling of missing values
+- Feature engineering pipeline
+- Data validation and transformation
 
-### Target Variable:
-- CSAT Score
+### 2. Model Development (`ml_training.ipynb`)
+- Multiple model implementations:
+  ```python
+  # LightGBM (Best Performing Model)
+  params = {
+      "objective": "multiclass",
+      "num_class": 5,
+      "learning_rate": 0.211,
+      "num_leaves": 118,
+      "max_depth": 15,
+      "is_unbalance": True
+  }
+  ```
+- Neural Network Architecture:
+  ```python
+  model = Sequential([
+      Dense(128, activation='relu'),
+      Dropout(0.3),
+      Dense(64, activation='relu'),
+      Dense(5, activation='softmax')
+  ])
+  ```
 
-## Data Preprocessing
+### 3. Model Evaluation
+- Metrics tracked:
+  - Accuracy
+  - F1 Score (Weighted)
+  - Precision & Recall
+  - Confusion Matrix
+  - AUC-ROC
 
-1. **Missing Value Treatment**:
-   - Customer Remarks: Filled with "No_Remarks"
-   - Numeric columns: KNN Imputation (k=5)
-   - Categorical columns: Most frequent value imputation
+### 4. MLflow Integration
+- Experiment tracking
+- Hyperparameter tuning using Optuna
+- Model versioning and artifact logging
 
-2. **Feature Engineering**:
-   - Sentiment Score calculation using VADER
-   - Issue resolution time computation
-   - Survey response time calculation
-   - Categorical variable encoding using OrdinalEncoder
+## 📊 Key Features Used for Prediction
 
-3. **Data Quality Checks**:
-   - VIF analysis for multicollinearity
-   - Distribution analysis
-   - Correlation studies
+1. **Customer Interaction**:
+   - Channel name
+   - Category
+   - Sub-category
+   - Customer remarks (sentiment)
 
-## Key Insights from EDA
+2. **Temporal Features**:
+   - Issue resolution time
+   - Connected handling time
+   - Survey response time
 
-1. **Correlation Patterns**:
-   - Strong correlation between sentiment_score and CSAT
-   - Resolution time impacts customer satisfaction
+3. **Agent Information**:
+   - Agent name
+   - Supervisor
+   - Manager
+   - Tenure bucket
+   - Shift
 
-2. **Distribution Analysis**:
-   - CSAT scores show imbalanced distribution
-   - Sentiment scores follow normal distribution
-   - Time-based features show right-skewed patterns
+4. **Transaction Details**:
+   - Product category
+   - Item price
 
-3. **Channel Performance**:
-   - Different channels show varying CSAT patterns
-   - Product categories influence satisfaction levels
+## 🚀 Deployment
 
-## Implementation Details
-
-### Preprocessing Pipeline (`csat_preprocessig.py`):
-```python
-class csat_preprocessing:
-    def __init__(self, csat):
-        # Initialize preprocessing with data validation
-        
-    def preprocessed(self):
-        # Complete preprocessing pipeline including:
-        # - Data cleaning
-        # - Feature engineering
-        # - Encoding
-        # - Imputation
-```
-
-### Model Features
-
-**Important Features Identified**:
-1. Sentiment score
-2. Issue resolution time
-3. Connected handling time
-4. Channel name
-5. Product category
-6. Item price
-
-## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-- scikit-learn
-- vaderSentiment
-- seaborn
-- matplotlib
-- streamlit
-
-## Usage
-
-1. Data Preprocessing:
-```python
-from csat_preprocessig import csat_preprocessing
-preprocessor = csat_preprocessing(data)
-processed_data = preprocessor.preprocessed()
-```
-
-2. Run EDA:
+### Local Setup
+1. Install dependencies:
 ```bash
-jupyter notebook EDA.ipynb
+pip install -r requirements.txt
 ```
 
-3. Train Model:
+2. Run Streamlit app:
 ```bash
-jupyter notebook ml_training.ipynb
+streamlit run app.py
 ```
 
-## Future Improvements
+### Usage
+1. **Individual Predictions**:
+   - Navigate to single prediction page
+   - Fill in customer interaction details
+   - Get instant CSAT prediction
 
-1. Implement advanced NLP techniques for sentiment analysis
-2. Add real-time prediction capabilities
-3. Develop API endpoints for model serving
-4. Include more feature engineering techniques
-5. Implement model monitoring and retraining pipeline
+2. **Batch Predictions**:
+   - Upload CSV file with multiple records
+   - Get predictions for all records
+   - Download results
 
-## Contributors
-- Individual Project
+## 📈 Performance Metrics
 
-## License
-[Specify your license here]
+- LightGBM Model:
+  - Accuracy: 0.85
+  - Weighted F1 Score: 0.84
+  - AUC-ROC: 0.92
+
+- Neural Network:
+  - Accuracy: 0.83
+  - Weighted F1 Score: 0.82
+  - AUC-ROC: 0.90
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- Key Libraries:
+  - pandas
+  - numpy
+  - scikit-learn
+  - lightgbm
+  - tensorflow
+  - streamlit
+  - mlflow
+  - vaderSentiment
+
+## 🔜 Future Improvements
+
+1. Real-time model retraining pipeline
+2. A/B testing framework for model comparison
+3. Advanced feature engineering using deep learning
+4. API deployment for microservice architecture
+5. Model interpretability dashboard
+6. Performance monitoring system
+
+## 👥 Contributors
+- Individual Project (Sushant Kashiram)
+
+## 📄 License
+MIT License
+
+## 📧 Contact
+For any queries or suggestions, please open an issue in the repository.

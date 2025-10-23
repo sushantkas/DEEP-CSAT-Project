@@ -48,3 +48,8 @@ if st.button("🔄 Preprocess and Predict CSAT Scores"):
     
     with st.spinner("Processing Dataset....", show_time=True):
         cdata=csat_preprocessing(df).preprocessed()
+        csat=model.predict(cdata)
+        cdata["csat_score"]=csat
+        st.dataframe(cdata)
+
+
