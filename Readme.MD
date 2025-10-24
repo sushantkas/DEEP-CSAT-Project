@@ -180,6 +180,9 @@ streamlit run app.py
 ## 👥 Contributors
 - Individual Project (Sushant Kashikar)
 
+## Click on the Link Below to Visit the app
+- https://csatpredictions.streamlit.app/page2
+
 ## 📄 License
 MIT License
 
